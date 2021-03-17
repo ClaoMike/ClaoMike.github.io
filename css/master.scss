@@ -28,6 +28,7 @@ body {
 
         .menuicon {
             cursor: pointer;
+            padding-top: .9em;
             
             .menubar {
                 background: blueviolet;
@@ -63,27 +64,29 @@ section {
         }
 
         .my-quote {
+            //border: .1em solid blueviolet;
+            width: 100%;
             margin: 0px;
-            padding: 1em 0em;
+            padding: 0;
+            //padding: 1em 4em;
             display: flex;
             place-content: space-between;
 
-            //.block {}
+            //.block { border: .1em solid green; padding: 1em 4em; }
 
             .block1{
-
+                //border: .1em solid green;
+                padding-top: 1.5em;
                 h1 {
-                    font-size: 2em;
-                    margin: 0;
-                    padding-top: 1.3em;
+                    font-size: 1.5em;
+                    //margin: 0;
+                    //padding-top: 1.3em;
                 }
 
-                h2 {
-                    margin: 0;
-                    font-size: 1em;
-                    line-height: .1em;
-                }
+                //h2 {margin: 0; font-size: 1em; line-height: .1em; }
             }
+
+            //.block2 {border: .1em solid blue;}
         }
     }
 }
@@ -91,6 +94,7 @@ section {
 .about-me{
 
     background: #140606;
+    padding-bottom: 4em;
 
     .denzel {
         margin-top: 5em;

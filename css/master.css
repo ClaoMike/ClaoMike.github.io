@@ -31,6 +31,7 @@ body {
 
 .navbar .container .menuicon {
   cursor: pointer;
+  padding-top: .9em;
 }
 
 .navbar .container .menuicon .menubar {
@@ -57,28 +58,26 @@ section {
 }
 
 .intro .container .my-quote {
+  width: 100%;
   margin: 0px;
-  padding: 1em 0em;
+  padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   place-content: space-between;
 }
 
-.intro .container .my-quote .block1 h1 {
-  font-size: 2em;
-  margin: 0;
-  padding-top: 1.3em;
+.intro .container .my-quote .block1 {
+  padding-top: 1.5em;
 }
 
-.intro .container .my-quote .block1 h2 {
-  margin: 0;
-  font-size: 1em;
-  line-height: .1em;
+.intro .container .my-quote .block1 h1 {
+  font-size: 1.5em;
 }
 
 .about-me {
   background: #140606;
+  padding-bottom: 4em;
 }
 
 .about-me .denzel {
