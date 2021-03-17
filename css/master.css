@@ -49,9 +49,10 @@ section {
 }
 
 .intro .container .photo-of-me img {
-  width: 25em;
+  width: 20em;
   border: .5em solid blueviolet;
   border-radius: 5em;
+  margin-left: 2em;
 }
 
 .intro .container .my-quote {
@@ -85,8 +86,9 @@ section {
 }
 
 .about-me .denzel img {
-  width: 25em;
+  width: 20em;
   border-radius: 5em;
+  margin-left: 2em;
 }
 
 .about-me .denzel p {
@@ -99,8 +101,9 @@ section {
 }
 
 .education img {
-  width: 25em;
+  width: 20em;
   border-radius: 5em;
+  margin-left: 2em;
 }
 
 .education .container h1 {

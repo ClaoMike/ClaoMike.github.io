@@ -54,16 +54,16 @@ section {
         .photo-of-me {
 
             img {
-                width: 25em;
+                width: 20em;
                 border: .5em solid blueviolet;
                 border-radius: 5em;
+                margin-left: 2em;
             }
         }
 
         .my-quote {
             margin: 0px;
             width: 100%;
-            //border: .1em solid blueviolet;
             padding-left: 1em;
             padding-top: 0em;
 
@@ -96,8 +96,10 @@ section {
         text-align: center;
 
         img {
-            width: 25em;
+            
+            width: 20em;
             border-radius: 5em;
+            margin-left: 2em;
         }
 
         p {
@@ -111,8 +113,9 @@ section {
     padding-bottom: 4em;
 
     img {
-        width: 25em;
+        width: 20em;
         border-radius: 5em;
+        margin-left: 2em;
     }
 
     .container{
