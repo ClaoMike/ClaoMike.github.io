@@ -64,24 +64,24 @@ section {
 
         .my-quote {
             margin: 0px;
-            width: 100%;
-            padding-left: 1em;
-            padding-top: 0em;
+            padding: 1em 0em;
+            display: flex;
+            place-content: space-between;
 
-            .block {
-                display: inline-block;
-            }
+            //.block {}
 
             .block1{
 
                 h1 {
-                    font-size: 5em;
+                    font-size: 2em;
                     margin: 0;
+                    padding-top: 1.3em;
                 }
 
                 h2 {
                     margin: 0;
-                    line-height: 1em;
+                    font-size: 1em;
+                    line-height: .1em;
                 }
             }
         }
