@@ -114,7 +114,7 @@ section {
 }
 
 .education {
-    background: rgb(31, 21, 58);
+    background: #1f153a;
     padding-bottom: 4em;
 
     img {
@@ -132,7 +132,7 @@ section {
         }
 
         .uom{
-            margin-top: 5em;
+            margin-top: 4em;
             text-align: center;
 
         }
@@ -150,4 +150,82 @@ ul {
     h1 {
         font-size: 4em;
     }
+
+    .graph {
+        
+        p {
+            padding-top: .8em;
+        }
+    }
+}
+
+.software {
+    background: #faad07;
+    color: brown;
+
+    .container {
+
+        .data-structure{
+            width: 100%;
+            margin: 0px;
+            padding: 0;
+            //padding: 1em 4em;
+            display: flex;
+            place-content: space-between;
+
+            button {
+                background: rebeccapurple;
+                border: .5em solid blueviolet;
+                border-radius: 1em;
+                color: white;
+
+            }
+        }
+    }
+}
+
+.spokenlang {
+    background: #2e9c65;
+
+    .container {
+
+        .languages {
+
+            .language {
+                margin-bottom: 1em;
+
+                .bar {
+                    background: gray;
+                    width: 100%;
+                    height: .4em;
+                    margin: 0; 
+
+                    .progressbar1 {
+                        background: red;
+                        width: 100%;
+                        height: .4em;
+                        margin: 0;
+                    }
+
+                    .progressbar2 {
+                        background: yellow;
+                        width: 90%;
+                        height: .4em;
+                        margin: 0;
+                    }
+
+                    .progressbar3 {
+                        background: blue;
+                        width: 10%;
+                        height: .4em;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.hobbiessection{
+    background: #240fe0;
 }

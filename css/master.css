@@ -114,7 +114,7 @@ section {
 }
 
 .education .container .uom {
-  margin-top: 5em;
+  margin-top: 4em;
   text-align: center;
 }
 
@@ -129,5 +129,71 @@ ul {
 
 .skills h1 {
   font-size: 4em;
+}
+
+.skills .graph p {
+  padding-top: .8em;
+}
+
+.software {
+  background: #faad07;
+  color: brown;
+}
+
+.software .container .data-structure {
+  width: 100%;
+  margin: 0px;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.software .container .data-structure button {
+  background: rebeccapurple;
+  border: .5em solid blueviolet;
+  border-radius: 1em;
+  color: white;
+}
+
+.spokenlang {
+  background: #2e9c65;
+}
+
+.spokenlang .container .languages .language {
+  margin-bottom: 1em;
+}
+
+.spokenlang .container .languages .language .bar {
+  background: gray;
+  width: 100%;
+  height: .4em;
+  margin: 0;
+}
+
+.spokenlang .container .languages .language .bar .progressbar1 {
+  background: red;
+  width: 100%;
+  height: .4em;
+  margin: 0;
+}
+
+.spokenlang .container .languages .language .bar .progressbar2 {
+  background: yellow;
+  width: 90%;
+  height: .4em;
+  margin: 0;
+}
+
+.spokenlang .container .languages .language .bar .progressbar3 {
+  background: blue;
+  width: 10%;
+  height: .4em;
+  margin: 0;
+}
+
+.hobbiessection {
+  background: #240fe0;
 }
 /*# sourceMappingURL=master.css.map */
