@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+body {
+  background: black;
+  margin: 0;
+  font-family: 'Source Code Pro', monospace;
+  color: white;
+}
+
+.navbar {
+  background: black;
+  padding: 1em;
+}
+
+.navbar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.navbar .container .logo {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  font-size: 3em;
+}
+
+.navbar .container .logo span {
+  color: blueviolet;
+}
+
+.navbar .container .menuicon {
+  cursor: pointer;
+}
+
+.navbar .container .menuicon .menubar {
+  background: blueviolet;
+  width: 2em;
+  height: .4em;
+  margin: .3em;
+}
+
+.navbar .container nav {
+  display: none;
+}
+
+section {
+  padding: 1em 3em 1em 3em;
+}
+
+.intro .container .photo-of-me img {
+  width: 25em;
+  border: .5em solid blueviolet;
+  border-radius: 5em;
+}
+
+.intro .container .my-quote {
+  margin: 0px;
+  width: 100%;
+  padding-left: 1em;
+  padding-top: 0em;
+}
+
+.intro .container .my-quote .block {
+  display: inline-block;
+}
+
+.intro .container .my-quote .block1 h1 {
+  font-size: 5em;
+  margin: 0;
+}
+
+.intro .container .my-quote .block1 h2 {
+  margin: 0;
+  line-height: 1em;
+}
+
+.about-me {
+  background: #140606;
+}
+
+.about-me .denzel {
+  margin-top: 5em;
+  text-align: center;
+}
+
+.about-me .denzel img {
+  width: 25em;
+  border-radius: 5em;
+}
+
+.about-me .denzel p {
+  font-size: 1.3em;
+}
+
+.education {
+  background: #1f153a;
+  padding-bottom: 4em;
+}
+
+.education img {
+  width: 25em;
+  border-radius: 5em;
+}
+
+.education .container h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+.education .container .uom {
+  margin-top: 5em;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.skills {
+  background: #101025;
+  padding-top: .1em;
+}
+
+.skills h1 {
+  font-size: 4em;
+}
+/*# sourceMappingURL=master.css.map */

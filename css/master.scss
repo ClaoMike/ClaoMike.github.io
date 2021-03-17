@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+body {
+    background: black;
+    margin: 0;
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+}
+
+.navbar {
+    background: black;
+    padding: 1em;
+
+    .container {
+        display: flex;
+        place-content: space-between;
+
+        .logo {
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+            font-size: 3em;
+
+            span {
+                color: blueviolet;
+            }
+        }
+
+        .menuicon {
+            cursor: pointer;
+            
+            .menubar {
+                background: blueviolet;
+                width: 2em;
+                height: .4em;
+                margin: .3em; 
+            }
+        }
+
+        nav {
+            display: none;
+        }
+    }
+}
+
+section {
+    padding: 1em 3em 1em 3em;
+}
+
+.intro {
+
+    .container {
+
+        .photo-of-me {
+
+            img {
+                width: 25em;
+                border: .5em solid blueviolet;
+                border-radius: 5em;
+            }
+        }
+
+        .my-quote {
+            margin: 0px;
+            width: 100%;
+            //border: .1em solid blueviolet;
+            padding-left: 1em;
+            padding-top: 0em;
+
+            .block {
+                display: inline-block;
+            }
+
+            .block1{
+
+                h1 {
+                    font-size: 5em;
+                    margin: 0;
+                }
+
+                h2 {
+                    margin: 0;
+                    line-height: 1em;
+                }
+            }
+        }
+    }
+}
+
+.about-me{
+
+    background: #140606;
+
+    .denzel {
+        margin-top: 5em;
+        text-align: center;
+
+        img {
+            width: 25em;
+            border-radius: 5em;
+        }
+
+        p {
+            font-size: 1.3em;
+        }
+    }
+}
+
+.education {
+    background: rgb(31, 21, 58);
+    padding-bottom: 4em;
+
+    img {
+        width: 25em;
+        border-radius: 5em;
+    }
+
+    .container{
+
+        h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        .uom{
+            margin-top: 5em;
+            text-align: center;
+
+        }
+    }
+}
+
+ul {
+    list-style-type: none;
+}
+
+.skills {
+    background: #101025;
+    padding-top: .1em;
+
+    h1 {
+        font-size: 4em;
+    }
+}
