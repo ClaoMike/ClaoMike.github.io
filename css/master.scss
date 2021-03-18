@@ -94,7 +94,7 @@ section {
 .about-me{
 
     background: #140606;
-    padding-bottom: 4em;
+    padding-bottom: 2em;
 
     .denzel {
         margin-top: 5em;
@@ -228,4 +228,63 @@ ul {
 
 .hobbiessection{
     background: #240fe0;
+}
+
+.projects {
+    background: #0d1117;
+
+    .container {
+
+        .projectsHead {
+            //width: 100%;
+            margin: 0px;
+            padding: 0;
+            //padding: 1em 4em;
+            display: flex;
+            place-content: space-between;
+            
+            p {
+                font-size: 1.5em;
+            }
+
+            a {
+                padding-top: 2em;
+            }
+        }
+
+        .projects-show-off {
+            span {
+                color: blueviolet;
+            }
+        }
+    }
+}
+
+.contact-me {
+    background: #0f0a0a;
+
+    .container {
+
+        .links {
+
+            .fa {
+                //padding: 20px;
+                font-size: 30px;
+                //width: 30px;
+                text-align: center;
+                text-decoration: none;
+                //margin: 5px 2px;
+                //border-radius: 50%;
+                }
+
+                .fa:hover {
+                    opacity: 0.7;
+                    color: red;
+                }
+            }
+        }
+    }
+
+.bye{
+    text-align: center;
 }
