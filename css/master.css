@@ -7,39 +7,30 @@ body {
   color: white;
 }
 
-.button {
-  text-decoration: none;
-}
-
 .left {
   position: fixed;
   height: 100%;
   width: 40%;
+  color: black;
+  border: 1px solid green;
+}
+
+.left .empty {
+  height: 15%;
 }
 
 .left .salute {
-  margin-top: 20%;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  background: #fff;
   width: 80%;
-  height: 15%;
+  height: 20%;
+  background-color: white;
   border-radius: 0px 25px 25px 0px;
+  padding-left: 10%;
+  display: table;
 }
 
-.left .salute p {
-  color: black;
-  margin-left: 20%;
-  font-size: 110%;
-}
-
-.left .salute:hover {
-  background: black;
-  background-color: black;
-}
-
-.left .salute:hover p {
-  display: none;
+.left .salute .text {
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .right {
@@ -48,23 +39,17 @@ body {
   left: 40%;
   height: 100%;
   width: 60%;
+  border: 1px solid yellow;
 }
 
 @media only screen and (max-width: 700px) {
-  body {
-    background-color: lightblue;
-  }
   .left {
     position: fixed;
     height: 30%;
     width: 100%;
   }
   .left .salute {
-    margin-top: 15%;
-    background: #fff;
-    width: 80%;
     height: 40%;
-    border-radius: 0px 25px 25px 0px;
   }
   .right {
     position: fixed;
